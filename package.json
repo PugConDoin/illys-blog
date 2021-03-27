@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-mdx-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop -p 8945 -o",
+    "serve": "gatsby develop -p 9854 -o",
+    "clean": "gatsby clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dom": "^0.0.3",
+    "gatsby": "^3.1.2",
+    "react": "^17.0.2"
+  }
+}
