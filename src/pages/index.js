@@ -1,10 +1,13 @@
 import React from 'react'
+import { useSiteMetadata } from '../hooks/use-site-metadata'
 
 function IndexPage() {
+  const { title, description } = useSiteMetadata()
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <h1>{title}</h1>
+      <h1>{description}</h1>
+    </>
   )
 }
 
