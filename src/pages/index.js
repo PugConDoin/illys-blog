@@ -14,9 +14,8 @@ export default function IndexPage({ data }) {
             sx={{
               mb: 4,
               p: 3,
-              boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-              border: '1px solid #d1d1d1',
-              borderRadius: '15px',
+              boxShadow: '0 5px 7px -2px rgba(0, 0, 0, 0.1)',
+              borderRadius: '5px',
             }}
           >
             <Link as={GatsbyLink} to={`/${slug}`}>
